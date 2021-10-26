@@ -1,253 +1,194 @@
 <!doctype>
 <html>
-	<head>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> -->
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<title>Bixo</title>
-        
-        <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		<!-- <link rel="stylesheet" href="./vendors/bootstrap/bootstrap.min.css"> -->
-		<link rel="stylesheet" href="./vendors/owl-carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="./vendors/owl-carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="./vendors/owl-carousel/assets/owl.theme.green.min.css">
-		
-		<link rel="stylesheet" href="./dist/assets/css/main.min.css">
+<head>
 
-        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Bixo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendors/owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./vendors/owl-carousel/assets/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./dist/assets/css/main.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-		<style>
-            
-			* {
-  margin: 0;
-  padding: 0;
-}
-.recent-projects-title {
-    background: rgba(236, 240, 241, 1);
-    color: #333;
-    text-transform: uppercase;
-    padding: 40px 0px;
-    text-align: center;
-    font-size: 62px;
-    font-family: 'News Cycle', sans-serif;
-    word-spacing: 17px;
-    letter-spacing: 4px;
-    font-weight: 400;
-}
-.content-block {
-    padding:60px 0;
-    width:100%;
-}
+    <style>
 
-.content-block-cyan {
-    background:#000;
-    color:#ECF0F1;
-}
+       * {
+          margin: 0;
+          padding: 0;
+      }
+      .recent-projects-title {
+        background: rgba(236, 240, 241, 1);
+        color: #333;
+        text-transform: uppercase;
+        padding: 40px 0px;
+        text-align: center;
+        font-size: 62px;
+        font-family: 'News Cycle', sans-serif;
+        word-spacing: 17px;
+        letter-spacing: 4px;
+        font-weight: 400;
+    }
+    .content-block {
+        padding:60px 0;
+        width:100%;
+    }
 
-.content-block-cyan h1 {
-    font-weight:100;
-    text-transform:uppercase;
-    margin-bottom: 30px;
-}
-.content-block-gray {
-    background:#ECF0F1;
-}
-footer.content-block {
-    padding: 25px 0 14px;
-    width: 100%;
-}
+    .content-block-cyan {
+        background:#000;
+        color:#ECF0F1;
+    }
 
-.content-block-dark {
-    background:#222222;
-}
+    .content-block-cyan h1 {
+        font-weight:100;
+        text-transform:uppercase;
+        margin-bottom: 30px;
+    }
+    .content-block-gray {
+        background:#ECF0F1;
+    }
+    footer.content-block {
+        padding: 25px 0 14px;
+        width: 100%;
+    }
 
-footer {
-    text-align:center;
-    color: rgb(153,160,162);
-}
-.hexagon {
-    width:100px;
-    height:55px;
-    background:#3acab1;
-    position:relative;
-    /*transition*/
-    -webkit-transition:all 0.3s;
-    -moz-transition:all 0.3s;
-    -o-transition:all 0.3s;
-    transition:all 0.3s;
-}
+    .content-block-dark {
+        background:#222222;
+    }
 
-/* .hexagon:before {
-    content:"";
-    position:absolute;
-    top:-25px;
-    left:0;
-    width:0;
-    height:0;
-    border-left:50px solid transparent;
-    border-right:50px solid transparent;
-    border-bottom:25px solid #3acab1; */
-    /*transition*/
-    /* -webkit-transition:all 0.3s;
-    -moz-transition:all 0.3s;
-    -o-transition:all 0.3s;
-    transition:all 0.3s;
-} */
-
-/* .hexagon:after {
-    content:"";
-    position:absolute;
-    bottom:-25px;
-    left:0;
-    width:0;
-    height:0;
-    border-left:50px solid transparent;
-    border-right:50px solid transparent;
-    border-top:25px solid #3acab1; */
-    /*transition*/
-    /* -webkit-transition:all 0.3s;
-    -moz-transition:all 0.3s;
-    -o-transition:all 0.3s;
-    transition:all 0.3s;
-} */
-
-.hexagon:hover {
-    background:#ec343c;
-}
-
-/* .hexagon:hover:before {
-    border-bottom-color:#ec343c;
-}
-
-.hexagon:hover:after {
-    border-top-color: #ec343c;
-} */
-
-/* #social {
-    padding:110px 0;
-} */
-
-#social .hexagon {
-    display:inline-block;
-}
-
-#social .hexagon i {
-    font-size:36px;
-    color:white;
-    line-height:55px;
-    position:relative;
-    z-index: 1;
-}
-.block-heading h1 {
-    margin-top:0;
-}
-
-.content-block-gray {
-    background:#ECF0F1;
-}
-
-.block-heading {
-    margin-bottom: 60px;
-}
-a:hover {
-    color:#ec343c;
-    text-decoration: none;
-}
-.nav>li>a:hover,.nav>li>a:focus {
-    background-color:#ec343c;
-    color: white;
-}
-nav-link:hover{
-    color:#ec343c !important;
-    color: white !important;
-}
-
-@media (max-width:768px) {
-    .navbar-nav>li>a {
-        padding-top:10px;
-        padding-bottom:10px;
+    footer {
         text-align:center;
+        color: rgb(153,160,162);
     }
-    .navbar-toggle i {
-        color:rgb(153,160,162);
-    }
-    .navbar-toggle {
-        margin-top:14px;
-    }
-    .recent-projects-title {
-        font-size:32px;
-    }
-    .blog-post {
-        margin-bottom:40px;
-    }
-    /* #social .hexagon {
-        margin-bottom:60px;
-    }
-    #social {
-        padding-bottom: 70px;
-    } */
     .hexagon {
-    width:71px;
-    height:52px;
-    background:#3acab1;
-    position:relative;
-    /*transition*/
-    -webkit-transition:all 0.3s;
-    -moz-transition:all 0.3s;
-    -o-transition:all 0.3s;
-    transition:all 0.3s;
-}
-}
-h2{
-    text-align: center;
-    padding: 20px;
-}
-.slick-slide{
-    margin: 0 20px;
-}
-.slick-slide img{
-    width: 100%;
-    
-}
-.slick-slider{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-.slick-list{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    
-}
-.slick-track{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block
-}
-.slick-slide{
-    display: none;
-    float: left;
-    /* height: 100%; */
-    min-height: 1px;
-}
-.slick-slide img{
-    display: block;
-}
-.slick-initialized .slick-slide{
-    display: block;
-}
+        width:100px;
+        height:55px;
+        background:#3acab1;
+        position:relative;
+        -webkit-transition:all 0.3s;
+        -moz-transition:all 0.3s;
+        -o-transition:all 0.3s;
+        transition:all 0.3s;
+    }
 
-div.bg_utube {
+
+    .hexagon:hover {
+        background:#ec343c;
+    }
+
+
+    #social .hexagon {
+        display:inline-block;
+    }
+
+    #social .hexagon i {
+        font-size:36px;
+        color:white;
+        line-height:55px;
+        position:relative;
+        z-index: 1;
+    }
+    .block-heading h1 {
+        margin-top:0;
+    }
+
+    .content-block-gray {
+        background:#ECF0F1;
+    }
+
+    .block-heading {
+        margin-bottom: 60px;
+    }
+    a:hover {
+        color:#ec343c;
+        text-decoration: none;
+    }
+    .nav>li>a:hover,.nav>li>a:focus {
+        background-color:#ec343c;
+        color: white;
+    }
+    nav-link:hover{
+        color:#ec343c !important;
+        color: white !important;
+    }
+
+    @media (max-width:768px) {
+        .navbar-nav>li>a {
+            padding-top:10px;
+            padding-bottom:10px;
+            text-align:center;
+        }
+        .navbar-toggle i {
+            color:rgb(153,160,162);
+        }
+        .navbar-toggle {
+            margin-top:14px;
+        }
+        .recent-projects-title {
+            font-size:32px;
+        }
+        .blog-post {
+            margin-bottom:40px;
+        }
+
+        .hexagon {
+            width:71px;
+            height:52px;
+            background:#3acab1;
+            position:relative;
+            /*transition*/
+            -webkit-transition:all 0.3s;
+            -moz-transition:all 0.3s;
+            -o-transition:all 0.3s;
+            transition:all 0.3s;
+        }
+    }
+    h2{
+        text-align: center;
+        padding: 20px;
+    }
+    .slick-slide{
+        margin: 0 20px;
+    }
+    .slick-slide img{
+        width: 100%;
+
+    }
+    .slick-slider{
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+    }
+    .slick-list{
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+
+    }
+    .slick-track{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block
+    }
+    .slick-slide{
+        display: none;
+        float: left;
+        min-height: 1px;
+    }
+    .slick-slide img{
+        display: block;
+    }
+    .slick-initialized .slick-slide{
+        display: block;
+    }
+
+    div.bg_utube {
         position: fixed;
         z-index: -99999;
         -webkit-user-select: none;
@@ -255,350 +196,316 @@ div.bg_utube {
         width: 100%;
         height: 100%;
         -ms-transform: scale(2,3);
-      -webkit-transform: scale(2,3);
-      transform: scale(2,3);
+        -webkit-transform: scale(2,3);
+        transform: scale(2,3);
     }
 
-		</style>
-		
-	</head>
-	<body>
-		
-        <header>
-            
-            
-            <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark">
-             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./Media/Brand-Logo.png" width="120" height="30" alt="Bixo logo">
-                    <!-- <strong>PHOTO</strong>GRAPHER -->
-                </a>
-              <button id="toggle-bar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              <div class="collapse navbar-collapse" id="main_nav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-						<li ><a class="nav-link" href="#carouselExampleInterval">Home</a></li>
-					</li>
-					<li class="nav-item">
-						<li><a class="nav-link" href="#about">About</a></li>
-					</li>
-					<li class="nav-item">
-						<li><a class="nav-link" href="#projects">Projects</a></li>
-					</li>
-					<li class="nav-item">
-						<li><a class="nav-link" href="#blog">BTS</a></li>
-					</li>
-					<li class="nav-item">
-						<li><a class="nav-link" href="#social">Social</a></li>
-					</li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li> -->
-                </ul>
-              </div> <!-- navbar-collapse.// -->
-             </div> <!-- container-fluid.// -->
-            </nav>
-            </header>
+</style>
 
-        <div class="col-lg-12 col-md-12 col-12" style="background-color: #000;">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <video class="" style="width:100%;" autoplay muted loop>
-                        <source src="./Media/CS_Mar_1.mov" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="carousel-item"  data-bs-interval="10000">
-                    <video class=""style="width:100%;"autoplay muted loop>
-                        <source src="./Media/CS Pune.mov" type="video/mp4">
-                    </video>
-                  </div>
-                  
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-		
-		  <div id="about" class="content-block content-block-cyan" >
-              <div class="post-heading text-center ">
-                  <h3 class="display-4 font-weight-bold">ABOUT</h3>
-                  <hr class="w-50 mx-auto "> 
-              </div>
+</head>
+<body>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <img class="img-fluid" src="./Media/Vikas.jpg" alt="Vikas poster">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <h1 class="text-center">Vikas Jakati</h1>
-                        <p>
-                            Vikas is a Mumbai-based Cinematographer, Drone Pilot Specialized in Spaces, interiors & Architecture for more than 8 years. Post his formal Cinematography education at the Bharathi Vidyapeeth School of Photography and Cinematography Pune. During his Cinematography college days worked with Celebrity Photographer Avinash Gowariker and was associated with Luxurious lifestyle Photographer Jaideep Oberoi whole he shot several hotel brands such as Ritz-Carlton, Taj, Four Seasons, and Jetwing Hotels. Post which, He has independently worked with numerous TVC, real estate brands, architects, manufacturing industries, and corporate videos.
-                        </p>
-                    </div>
+    <header>
+
+
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./Media/Brand-Logo.png" width="120" height="30" alt="Bixo logo">
+            </a>
+            <button id="toggle-bar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <li ><a class="nav-link" href="#carouselExampleInterval">Home</a></li>
+              </li>
+              <li class="nav-item">
+                  <li><a class="nav-link" href="#about">About</a></li>
+              </li>
+              <li class="nav-item">
+                  <li><a class="nav-link" href="#projects">Projects</a></li>
+              </li>
+              <li class="nav-item">
+                  <li><a class="nav-link" href="#blog">BTS</a></li>
+              </li>
+              <li class="nav-item">
+                  <li><a class="nav-link" href="#social">Social</a></li>
+              </li>
+          </ul>
+      </div> 
+  </div> 
+</nav>
+</header>
+
+<div class="col-lg-12 col-md-12 col-12" style="background-color: #000;">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <video class="" style="width:100%;" autoplay muted loop>
+                <source src="./Media/CS_Mar_1.mov" type="video/mp4">
+                </video>
+            </div>
+            <div class="carousel-item"  data-bs-interval="10000">
+                <video class=""style="width:100%;"autoplay muted loop>
+                    <source src="./Media/CS Pune.mov" type="video/mp4">
+                    </video>
                 </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+
+  <div id="about" class="content-block content-block-cyan" >
+      <div class="post-heading text-center ">
+          <h3 class="display-4 font-weight-bold">ABOUT</h3>
+          <hr class="w-50 mx-auto "> 
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img class="img-fluid" src="./Media/Vikas.jpg" alt="Vikas poster">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <h1 class="text-center">Vikas Jakati</h1>
+                <p>
+                    Vikas is a Mumbai-based Cinematographer, Drone Pilot Specialized in Spaces, interiors & Architecture for more than 8 years. Post his formal Cinematography education at the Bharathi Vidyapeeth School of Photography and Cinematography Pune. During his Cinematography college days worked with Celebrity Photographer Avinash Gowariker and was associated with Luxurious lifestyle Photographer Jaideep Oberoi whole he shot several hotel brands such as Ritz-Carlton, Taj, Four Seasons, and Jetwing Hotels. Post which, He has independently worked with numerous TVC, real estate brands, architects, manufacturing industries, and corporate videos.
+                </p>
             </div>
         </div>
+    </div>
+</div>
 
-		<div id="projects" class="recent-projects">
-            <div class="recent-projects-title">
-                Recent Projects
-            </div>
-            	
-        </div>
-		<!-- <div class="container"> -->
-			<!-- <div class="row">
-				<div class="col-md-12">
-					<h1>OWL Tube - OWL Carousel Youtube Playlist</h1>
-					<hr>
-				</div>
-			</div> -->
-				<div class="row">
-					<div class="col-md-12">
-						
-						<div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <iframe type="text/html"width="200" height="405"
-                                src="https://www.youtube.com/embed/vDpy21jt_og?enablejsapi=1&vq=hd720&rel=0"
-                                frameborder="0" allowfullscreen></iframe>
-                        </div>
+<div id="projects" class="recent-projects">
+    <div class="recent-projects-title">
+        Recent Projects
+    </div>
 
-                        <div class="item">
-                                <iframe type="text/html" width="200" height="405"
-                                src="https://www.youtube.com/embed/aZ0CZADgjKc?enablejsapi=1&vq=hd720&rel=0"
-                                frameborder="0" allowfullscreen></iframe>
-                        </div>
-							<div class="item">
-                                <!-- <iframe src="https://player.vimeo.com/video/88164302?h=32c4ceaef5" style="background-color: #FFFFFF" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/88164302">Minions - Banana Song (Full Song) - YouTube</a> from <a href="https://vimeo.com/user25624091">Turisys Technologies</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
-									<iframe type="text/html" width="200" height="405"
-									src="https://www.youtube.com/embed/0_V5_C6DgXA?&showinfo=0&vq=hd720&rel=0"
-									frameborder="0" allowfullscreen></iframe>
-							</div>
-							<div class="item">
-									<iframe type="text/html" width="200" height="405"
-									src="https://www.youtube.com/embed/3mbboapOY6A?enablejsapi=1&vq=hd720&rel=0"
-									frameborder="0" allowfullscreen></iframe>
-							</div>
-							
-							<div class="item">
-								<iframe type="text/html"width="200" height="405"
-								src="https://www.youtube.com/embed/3lSrLKgd7UE?enablejsapi=1&vq=hd720&rel=0"
-								frameborder="0" allowfullscreen></iframe>
-							</div>
-							<div class="item">
-								<iframe type="text/html" width="200" height="405"
-								src="https://www.youtube.com/embed/a8x6ePNjv9E?enablejsapi=1&vq=hd720&rel=0"
-								frameborder="0" allowfullscreen></iframe>
-							</div>
-							<div class="item">
-								<iframe type="text/html" width="200" height="405"
-								src="https://www.youtube.com/embed/oCMCR7LUahc?enablejsapi=1&vq=hd720&rel=0"
-								frameborder="0" allowfullscreen></iframe>
-							</div>
-						
-							<div class="item">
-                                
-								<iframe type="text/html" width="200" height="405"
-								src="https://www.youtube.com/embed/NCF5H4-_d_A?enablejsapi=1&vq=hd720&rel=0"
-								frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-                        </div>		
-					
-					
-				</div>
-			
-		<!-- </div> -->
-		<div id="blog" class="content-block content-block-gray">
-            <div class="container">
-                <header class="block-heading cleafix">
-                    <!-- <a href="#" class="btn btn-o btn-lg pull-right">View All</a> -->
-                    <h1>FROM BTS</h1>
-                    <!-- <p>Keep up with the latest happenings.</p> -->
-                </header>
-                <section class="block-body">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-12 blog-post">
-                            <video  style="width:100%;" poster="./Media/BTSposter.jpeg" controls autoplay>
-                                <source src="./Media/BTS.mp4" type="video/mp4">
-                            </video>
-                            <!-- <img src="img/bike_water1-1000x600.jpg" alt="Design Your Mind"> -->
-                            <!-- <a href="#"><h2>Design Your Mind</h2></a>
-                            <div class="date">3 Nov, 2014</div> -->
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-12 text-center" style="display: flex;align-items: center;">
-                            <h2>Some of the Bloopers from my Portfolio shoot 2018</h2>
-                        </div>
-                        <!-- <div class="col-sm-4 blog-post">
-                            <img src="img/mac_glasses1-1000x600.jpg" alt="Winter Is Comming">
-                            <a href="#"><h2>Winter Is Comming</h2></a>
-                            <div class="date">3 Nov, 2014</div>
-                        </div>
-                        <div class="col-sm-4 blog-post">
-                            <img src="img/road-1000x600.jpg" alt="The Illustration">
-                            <a href="#"><h2>The Illustration</h2></a>
-                            <div class="date">3 Nov, 2014</div>
-                        </div> -->
+</div>
+
+<div class="row">
+ <div class="col-md-12">
+  <div class="owl-carousel owl-theme">
+
+    <div class="item">
+        <iframe type="text/html" width="200" height="405"
+        src="https://www.youtube.com/embed/aZ0CZADgjKc?enablejsapi=1&vq=hd720&rel=0"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item">
+
+        <iframe type="text/html" width="200" height="405"
+        src="https://www.youtube.com/embed/0_V5_C6DgXA?&showinfo=0&vq=hd720&rel=0"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item">
+     <iframe type="text/html" width="200" height="405"
+     src="https://www.youtube.com/embed/3mbboapOY6A?enablejsapi=1&vq=hd720&rel=0"
+     frameborder="0" allowfullscreen></iframe>
+ </div>
+
+ <div class="item">
+    <iframe type="text/html"width="200" height="405"
+    src="https://www.youtube.com/embed/3lSrLKgd7UE?enablejsapi=1&vq=hd720&rel=0"
+    frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="item">
+    <iframe type="text/html" width="200" height="405"
+    src="https://www.youtube.com/embed/a8x6ePNjv9E?enablejsapi=1&vq=hd720&rel=0"
+    frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="item">
+    <iframe type="text/html" width="200" height="405"
+    src="https://www.youtube.com/embed/oCMCR7LUahc?enablejsapi=1&vq=hd720&rel=0"
+    frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="item">
+
+    <iframe type="text/html" width="200" height="405"
+    src="https://www.youtube.com/embed/NCF5H4-_d_A?enablejsapi=1&vq=hd720&rel=0"
+    frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="item">
+    <iframe type="text/html"width="200" height="405"
+    src="https://www.youtube.com/embed/vDpy21jt_og?enablejsapi=1&vq=hd720&rel=0"
+    frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+</div>
+</div>		
+
+
+</div>
+
+<!-- </div> -->
+<div id="blog" class="content-block content-block-gray">
+    <div class="container">
+        <header class="block-heading cleafix">
+            <h1>FROM BTS</h1>
+        </header>
+        <section class="block-body">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-12 blog-post">
+                    <video  style="width:100%;" poster="./Media/BTSposter.jpeg" controls autoplay>
+                        <source src="./Media/BTS.mp4" type="video/mp4">
+                        </video>
                     </div>
-                </section>
-            </div><!--/container-->
-        </div>
-
-        <div class="">
-            <h2 class="text-center font-weight-bold">Our Clients</h2>
-            <section class="customer-logos slider">
-                <div class="slide"><img width="100" height="100"  src="./Client/logos/mipmap-xxxhdpi/flipkart.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/iplace.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/android/mipmap-xxxhdpi/Mercedes-Benz.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/DYPatil.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/eleganz.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/flipspace.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/ic_launcher(1).png" alt="logo"></div>
-                
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/ic_launcher.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/kolhar.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/Meenakshi.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/shah.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/sizzle.png" alt="logo"></div>
-                <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/sunburn.png" alt="logo"></div>
+                    <div class="col-lg-4 col-md-4 col-12 text-center" style="display: flex;align-items: center;">
+                        <h2>Some of the Bloopers from my Portfolio shoot 2018</h2>
+                    </div>
+                </div>
             </section>
         </div>
-		<div id="social" class="content-block">
-            <div class="container text-center">
-                <div class="hexagon"><a href="https://www.facebook.com/vikas.jakati1/"><i class="fa fa-facebook"></i></a></div>
-                <div class="hexagon"><a href="https://wa.me/+919740950959"><i class="fa fa-whatsapp"></i></a></div>
-                <!-- ?text=I'm%20interested%20in%20your%20car%20for%20sale -->
-                <div class="hexagon"><a href="mailto: contact@bixo.me"><i class="fa fa-envelope"></i></a></div>
-                <div class="hexagon"><a href="https://www.instagram.com/bixostudio/"><i class="fa fa-instagram"></i></a></div>
-                <!-- <div class="hexagon"><a href="#"><i class="fa fa-pinterest"></i></a></div> -->
-                
-            </div>
+    </div>
+
+    <div class="">
+        <h2 class="text-center font-weight-bold">Our Clients</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><img width="100" height="100"  src="./Client/logos/mipmap-xxxhdpi/flipkart.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/iplace.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/android/mipmap-xxxhdpi/Mercedes-Benz.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/DYPatil.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/eleganz.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/flipspace.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/ic_launcher(1).png" alt="logo"></div>
+            
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/ic_launcher.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/kolhar.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/Meenakshi.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/shah.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/sizzle.png" alt="logo"></div>
+            <div class="slide"><img width="100" height="100" src="./Client/logos/mipmap-xxxhdpi/sunburn.png" alt="logo"></div>
+        </section>
+    </div>
+    <div id="social" class="content-block">
+        <div class="container text-center">
+            <div class="hexagon"><a href="https://www.facebook.com/vikas.jakati1/"><i class="fa fa-facebook"></i></a></div>
+            <div class="hexagon"><a href="https://wa.me/+919740950959"><i class="fa fa-whatsapp"></i></a></div>
+            <div class="hexagon"><a href="mailto: contact@bixo.me"><i class="fa fa-envelope"></i></a></div>
+            <div class="hexagon"><a href="https://www.instagram.com/bixostudio/"><i class="fa fa-instagram"></i></a></div>
+            
         </div>
+    </div>
 
 
-        <footer class="content-block content-block-dark">
-            <p>All Rights Reserved &copy; plack.me</p>
-            <!-- <p>&copy; Copyright Photographer 2014. Theme by <a href="https://themewagon.com/" target="_blank"> ThemeWagon</a></p> -->
-        </footer>
-	</body>
-
-	
-
-	<!--vendors-files-->
-	<script src="./vendors/jquery/jquery-3.3.1.min.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
-	<script src="./vendors/bootstrap/popper.min.js"></script>
-	<!-- <script src="./vendors/bootstrap/bootstrap.min.js"></script> -->
-	<script src="./vendors/owl-carousel/owl.carousel.min.js"></script>
-	<!--owl-tube-file-->
-	<script src="../dist/assets/js/owl-tube.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-	<script>
+    <footer class="content-block content-block-dark">
+        <p>All Rights Reserved &copy; plack.me</p>
+    </footer>
+</body>
 
 
-	$(document).ready(function(){
-		var carousel = $('.owl-carousel').owlCarousel({
-			
-			loop:1,
-			
-			dots:1,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1
-                    
-                },
-                600:{
-                    items:1,
-                    
-                },
-                1000:{
-                    items:1,
-                    
-                    }
-                }
-        
-		});
-		window.owlTube = $(carousel).owlTube();
-		
-	});
-	</script>
-    <script>
-        $(function() {
-                $('a[href*=\\#]:not([href=\\#])').on('click', function() {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                });
-            });
-    </script>
+<script src="./vendors/jquery/jquery-3.3.1.min.js"></script>
+<script src="./vendors/bootstrap/popper.min.js"></script>
+<script src="./vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="../dist/assets/js/owl-tube.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function(){
-  window.addEventListener('scroll', function() {
-      if (window.scrollY > 50) {
-        document.getElementById('navbar_top').classList.add('fixed-top');
-        // add padding top to show content behind navbar
-        navbar_height = document.querySelector('.navbar').offsetHeight;
-        document.body.style.paddingTop = navbar_height + 'px';
-      } else {
-        document.getElementById('navbar_top').classList.remove('fixed-top');
-         // remove padding top from body
-        document.body.style.paddingTop = '0';
-      } 
-  });
-});
-    </script>
-    <script>
-    
-    $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-        $(document).ready(function(){
-            $('.customer-logos').slick({
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 1500,
-                arrows: false,
-                dots: false,
-                pauseOnHover:true,
-                responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: false
-      }
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script>
+
+
+ $(document).ready(function(){
+  var carousel = $('.owl-carousel').owlCarousel({
+
+   loop:1,
+
+   dots:1,
+   responsiveClass:true,
+   responsive:{
+    0:{
+        items:1
+
     },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
+    600:{
+        items:1,
+
+    },
+    1000:{
+        items:1,
+
+    }
+}
+
+});
+  window.owlTube = $(carousel).owlTube();
+
+});
+</script>
+<script>
+    $(function() {
+        $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+      window.addEventListener('scroll', function() {
+          if (window.scrollY > 50) {
+            document.getElementById('navbar_top').classList.add('fixed-top');
+            
+            navbar_height = document.querySelector('.navbar').offsetHeight;
+            document.body.style.paddingTop = navbar_height + 'px';
+        } else {
+            document.getElementById('navbar_top').classList.remove('fixed-top');
+            
+            document.body.style.paddingTop = '0';
+        } 
+    });
+  });
+</script>
+<script>
+
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover:true,
+            responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+        }
     },
     {
       breakpoint: 480,
@@ -606,16 +513,14 @@ div.bg_utube {
         slidesToShow: 2,
         slidesToScroll: 2,
         
-      }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-            });
-        });
+}
+
+]
+});
+    });
     
-        </script>
+</script>
 
 
 
